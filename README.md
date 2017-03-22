@@ -5,12 +5,28 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 
 ## Graph
 
+![Graph](https://github.com/potterhsu/SVHNClassifier/blob/master/images/graph.png?raw=true)
 
 
 ## Results
 
+### Accuracy
+![Accuracy](https://github.com/potterhsu/SVHNClassifier/blob/master/images/accuracy.png?raw=true)
 
+### Loss
+![Loss](https://github.com/potterhsu/SVHNClassifier/blob/master/images/loss.png?raw=true)
 
+### Samples
+
+| Training      | Test          |
+|:-------------:|:-------------:|
+| ![Train1](https://github.com/potterhsu/SVHNClassifier/blob/master/images/train1.png?raw=true) | ![Test1](https://github.com/potterhsu/SVHNClassifier/blob/master/images/test1.png?raw=true) |
+| ![Train2](https://github.com/potterhsu/SVHNClassifier/blob/master/images/train2.png?raw=true) | ![Test2](https://github.com/potterhsu/SVHNClassifier/blob/master/images/test2.png?raw=true) |
+
+### Inference to outside image
+
+<img src="https://github.com/potterhsu/SVHNClassifier/blob/master/images/inference1.png?raw=true" width="250">
+<img src="https://github.com/potterhsu/SVHNClassifier/blob/master/images/inference2.png?raw=true" width="250">
 
 ## Requirements
 
@@ -27,7 +43,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 
 1. Download [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/) format 1
 
-2. extract to data folder, now your folder structure should like below:
+2. Extract to data folder, now your folder structure should like below:
     ```
     SVHNClassifier
         - data
@@ -51,7 +67,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 
 ## Usage
 
-1. Take a look at original images with bounding boxes (Optional)
+1. (Optional) Take a look at original images with bounding boxes
 
     ```
     Open `draw_bbox.ipynb` in Jupyter
@@ -63,7 +79,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
     $ python convert_to_tfrecords.py --data_dir ./data
     ```
 
-1. Test for reading TFRecords files (Optional)
+1. (Optional) Test for reading TFRecords files
 
     Open `read_tfrecords_sample.ipynb` in Jupyter
     Open `donkey_sample.ipynb` in Jupyter
@@ -91,7 +107,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
     $ tensorboard --logdir ./logs
     ```
 
-1. Try to make an inference (Optional)
+1. (Optional) Try to make an inference
     
     Open `inference_sample.ipynb` in Jupyter
     Open `inference_sample2.ipynb` in Jupyter
