@@ -13,6 +13,8 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 ### Accuracy
 ![Accuracy](https://github.com/potterhsu/SVHNClassifier/blob/master/images/accuracy.png?raw=true)
 
+> Accuracy 93.45% on test dataset after about 14 hours
+
 ### Loss
 ![Loss](https://github.com/potterhsu/SVHNClassifier/blob/master/images/loss.png?raw=true)
 
@@ -23,10 +25,12 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 | ![Train1](https://github.com/potterhsu/SVHNClassifier/blob/master/images/train1.png?raw=true) | ![Test1](https://github.com/potterhsu/SVHNClassifier/blob/master/images/test1.png?raw=true) |
 | ![Train2](https://github.com/potterhsu/SVHNClassifier/blob/master/images/train2.png?raw=true) | ![Test2](https://github.com/potterhsu/SVHNClassifier/blob/master/images/test2.png?raw=true) |
 
-### Inference to outside image
+### Inference of outside image
 
 <img src="https://github.com/potterhsu/SVHNClassifier/blob/master/images/inference1.png?raw=true" width="250">
 <img src="https://github.com/potterhsu/SVHNClassifier/blob/master/images/inference2.png?raw=true" width="250">
+
+> digit "10" means no digits
 
 ## Requirements
 
