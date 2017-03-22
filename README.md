@@ -45,9 +45,16 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 
 ## Setup
 
-1. Download [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/) format 1
+1. Clone the source code
 
-2. Extract to data folder, now your folder structure should like below:
+    ```
+    $ git clone https://github.com/potterhsu/SVHNClassifier
+    $ cd SVHNClassifier
+    ```
+
+2. Download [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/) format 1
+
+3. Extract to data folder, now your folder structure should be like below:
     ```
     SVHNClassifier
         - data
