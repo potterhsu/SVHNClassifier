@@ -78,7 +78,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 
 ## Usage
 
-1. (Optional) Take a look at original images with bounding boxes
+1. (Optional) Take a glance at original images with bounding boxes
 
     ```
     Open `draw_bbox.ipynb` in Jupyter
@@ -92,8 +92,10 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 
 1. (Optional) Test for reading TFRecords files
 
+    ```
     Open `read_tfrecords_sample.ipynb` in Jupyter
     Open `donkey_sample.ipynb` in Jupyter
+    ```
 
 1. Train
 
