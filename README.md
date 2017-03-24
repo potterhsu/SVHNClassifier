@@ -125,6 +125,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
     ```
     Open `inference_sample.ipynb` in Jupyter
     Open `inference_sample2.ipynb` in Jupyter
+    $ python inference.py --image /path/to/image.jpg --restore_checkpoint ./logs/train/latest.ckpt
     ```
 
 1. Clean
