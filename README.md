@@ -35,7 +35,7 @@ A TensorFlow implementation of [Multi-digit Number Recognition from Street View 
 ## Requirements
 
 * Python 2.7
-* Tensorflow 1.0
+* Tensorflow
 * h5py
 
     ```
